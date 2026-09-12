@@ -11,7 +11,7 @@ const UNITS: [limit: number, seconds: number, short: string, long: string][] = [
   [2629800, 604800, "w", "week"],
 ];
 
-/** Instagram-style relative stamps: "4h", "2 days ago". */
+/** Short relative stamps: "4h", "2 days ago". */
 export function timeAgo(iso: string, style: "short" | "long" = "short"): string {
   const seconds = Math.max(1, (Date.now() - new Date(iso).getTime()) / 1000);
   for (const [limit, divisor, short, long] of UNITS) {

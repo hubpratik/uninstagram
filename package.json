@@ -28,5 +28,5 @@
     "type": "git",
     "url": "https://github.com/hubpratik/uninstagram.git"
   },
-  "description": "A private, single-owner photo page that looks like Instagram - self-hosted on your own Azure."
+  "description": "A private, single-owner photo page in the style of popular media-sharing apps - self-hosted on your own Azure."
 }

@@ -6,7 +6,7 @@ import VisitorsDialog from "./VisitorsDialog";
 
 /**
  * The "visitors" number on the profile, which opens into the list of who has
- * stopped by — Instagram's followers dialog, minus the follower part.
+ * stopped by — a familiar followers dialog, minus the follower part.
  */
 export default function VisitorsStat({
   count,

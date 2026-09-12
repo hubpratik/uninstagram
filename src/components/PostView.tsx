@@ -388,7 +388,7 @@ export default function PostView({
     </form>
   );
 
-  // Instagram fits the frame to the first photo, clamped between 4:5 and 1.91:1,
+  // Like the popular apps, the frame fits the first photo, clamped between 4:5 and 1.91:1,
   // so a carousel of mixed shapes still scrolls inside one steady box.
   const first = post.media[0];
   const ratio = Math.min(1.91, Math.max(0.8, first.width / first.height));

@@ -41,8 +41,8 @@ reachable without setting a real secret.
 src/
   app/                  pages and API routes (Next.js App Router)
     api/                every write checks admin or visitor identity on the server
-    @modal/(.)p/[id]    the Instagram-style photo overlay, via an intercepting route
-  components/           the Instagram-shaped UI
+    @modal/(.)p/[id]    the photo overlay above the grid, via an intercepting route
+  components/           the user interface
   lib/
     store/              persistence behind one interface; jsonStore.ts is the local driver
     media/              where image bytes go; localMedia.ts is the local driver

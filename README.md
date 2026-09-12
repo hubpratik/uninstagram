@@ -1,11 +1,11 @@
 # Uninstagram
 
-**A photo page that looks like Instagram and belongs only to you.**
+**A photo page that looks like a popular media-sharing app — and belongs only to you.**
 
 No feed. No algorithm. No ads. No accounts to create. It runs in your own Azure subscription, and
 your photos never leave it.
 
-Uninstagram is a self-hosted photo page shaped like an Instagram profile: a grid of posts, photos
+Uninstagram is a self-hosted photo page shaped like a profile on a popular media-sharing app: a grid of posts, photos
 that open into a swipeable carousel, likes and comments, your picture and bio at the top. You share
 a link. The people you share it with look around, leave a like or a comment, and that is all.
 Nobody signs up for anything.
@@ -48,7 +48,7 @@ Uninstagram keeps the first and drops the second.
 | Everyone needs an account | Visitors leave a nickname. No sign-up, no password |
 | Your archive lives in their account | Your archive lives in your storage account, in your Azure subscription |
 
-It looks like Instagram on purpose. The people you share with already know how to use it: tap a
+It looks like a popular media-sharing app on purpose. The people you share with already know how to use it: tap a
 photo, swipe, double-tap to like. There is nothing to learn and nothing to install.
 
 ## What it does

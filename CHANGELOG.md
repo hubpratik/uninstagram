@@ -12,7 +12,7 @@ The first public release. It is the same build that runs the maintainer's own si
 
 ### For the owner
 
-- A profile page shaped like Instagram: grid, avatar, bio, link
+- A profile page shaped like a popular media-sharing app: grid, avatar, bio, link
 - Posts of one photo or a carousel of up to ten, with caption, location, and a **memory date** —
   when it happened, separate from when it was posted, so an old photo lands in the right place
 - Four sort orders for the grid: by memory date or upload date, either direction
