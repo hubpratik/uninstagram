@@ -116,9 +116,13 @@ your yes. About ten minutes later you have your page:
 ```
 Your Uninstagram is live.
 
-    Your page   https://uninstagram.happyfield-1a2b3c4d.westeurope.azurecontainerapps.io
-    Admin       https://uninstagram.happyfield-1a2b3c4d.westeurope.azurecontainerapps.io/admin
+    Your page   https://<app-name>.<random-words>.<region>.azurecontainerapps.io
+    Admin       https://<app-name>.<random-words>.<region>.azurecontainerapps.io/admin
 ```
+
+Every site gets its own address. The app name and region are yours; Azure makes up the middle
+part. The deployer prints your address at the end, and `python uninstagram.py status` shows it
+again at any time.
 
 Open the admin link, sign in with your code, add your photo and bio, and post.
 
