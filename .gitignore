@@ -1,0 +1,40 @@
+# --- Dependencies and build output -----------------------------------------
+node_modules/
+.next/
+.next-verify/
+out/
+next-env.d.ts
+*.tsbuildinfo
+__pycache__/
+*.py[cod]
+
+# --- Secrets: never commit ---------------------------------------------------
+.env
+.env.local
+.env.*.local
+
+# --- Personal content --------------------------------------------------------
+# Local photos, visitor records and visitors' email addresses.
+/data/
+
+# Written by deploy/uninstagram.py. It records your resource names: not
+# secret, but yours rather than the project's.
+uninstagram-deploy.json
+
+# --- The maintainer's own operations -----------------------------------------
+# Working notes, the release log and the deployment tooling for the
+# maintainer's personal site. Nothing in the open-source project uses them.
+/MEMORY.md
+/RELEASES.md
+/CLAUDE.md
+/.claude/
+/container_deployment/README.md
+/container_deployment/INSTALL-DOCKER.md
+/container_deployment/azure/
+/container_deployment/cloudflare/
+
+# --- Leftovers ---------------------------------------------------------------
+*.bak
+
+# Held back from the public repo: work not yet released, kept locally.
+/private/

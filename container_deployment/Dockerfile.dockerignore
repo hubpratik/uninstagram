@@ -1,0 +1,32 @@
+# BuildKit reads "<dockerfile>.dockerignore" in preference to a root
+# .dockerignore, which is how this keeps the dev tree free of build files.
+#
+# If your Docker is old enough to ignore this, copy it to the project root as
+# .dockerignore instead — check with:  docker build --progress=plain ...
+# and confirm the context size is a few MB, not hundreds.
+
+node_modules
+.next
+.next-verify
+npm-debug.log
+
+# YOUR PHOTOS AND VISITOR DATA. Never goes into the image: production reads
+# everything from Blob and Table Storage, so the deployed app starts empty and
+# clean, exactly as asked.
+data
+
+.env
+.env.local
+.git
+.gitignore
+.claude
+README.md
+*.md
+scripts
+
+# Open-source tooling and docs: never needed inside the image, and keeping
+# them out means a docs edit does not invalidate the build cache.
+deploy
+docs
+.github
+uninstagram-deploy.json

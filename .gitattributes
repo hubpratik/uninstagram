@@ -1,0 +1,9 @@
+# Store and check out every text file with LF endings, on every platform.
+# Scripts and the Dockerfile break in quiet ways with CRLF.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary

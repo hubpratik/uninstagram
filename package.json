@@ -1,0 +1,32 @@
+{
+  "name": "uninstagram",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "next lint",
+    "frame-existing": "node scripts/frame-existing.mjs"
+  },
+  "dependencies": {
+    "next": "^15.5.24",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "sharp": "^0.35.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.1.13",
+    "@types/node": "22.15.3",
+    "@types/react": "19.1.0",
+    "@types/react-dom": "19.1.0",
+    "tailwindcss": "4.1.13",
+    "typescript": "5.8.3"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hubpratik/uninstagram.git"
+  },
+  "description": "A private, single-owner photo page that looks like Instagram - self-hosted on your own Azure."
+}
